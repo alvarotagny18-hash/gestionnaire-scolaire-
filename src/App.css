@@ -247,7 +247,7 @@ body {
   padding: 10px 15px;
   border-radius: 8px;
   border: 1px solid #2e2e4e;
-  background-color: #1e1e2e;
+  background-color: #2e2e3d;
   color: white;
   font-size: 1rem;
   flex: 1;
@@ -264,8 +264,9 @@ body {
 }
 
 .formulaire button:hover {
-  background-color: #7c3aed;
+  background-color: #360f7a;
 }
+/* matière */
 
 .matiere-card {
   display: flex;
@@ -325,7 +326,7 @@ body {
   padding: 10px 15px;
   border-radius: 8px;
   border: 1px solid #2e2e4e;
-  background-color: #1e1e2e;
+  background-color: #2f2f3a;
   color: white;
   font-size: 1rem;
 }
@@ -334,7 +335,7 @@ body {
   padding: 10px 15px;
   border-radius: 8px;
   border: 1px solid #2e2e4e;
-  background-color: #1e1e2e;
+  background-color: #373742;
   color: white;
   font-size: 1rem;
 }
@@ -372,6 +373,7 @@ body {
   border-radius: 20px;
   font-size: 0.85rem;
 }
+/* revisions */
 
 .revision-card {
   background-color: #1e1e2e;
