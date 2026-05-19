@@ -14,7 +14,13 @@ function Navbar() {
         <li><Link to="/calendrier">📅 Calendrier</Link></li>
         <li><Link to="/revisions">📝 Révisions</Link></li>
       </ul>
+
+      <div className="burger" id="burger" onclick="toggleMobileMenu()">
+        <span></span><span></span><span></span>
+      </div>
     </nav>
+
+    
   )
 }
 

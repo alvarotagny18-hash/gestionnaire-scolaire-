@@ -136,10 +136,10 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 900px) {
     margin-top: 20px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: auto;
 
     li {
       flex: 1 1 calc(50% - 8px);
@@ -156,7 +156,7 @@
 #spacer {
   height: 88px;
   border-top: 1px solid var(--border);
-  @media (max-width: 1024px) {
+  @media (max-width: 900px) {
     height: 48px;
   }
 }
@@ -272,7 +272,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1e1e2e;
+  background-color: #1f1f27;
+  color: white;
   padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -295,6 +296,7 @@ body {
   align-items: center;
   gap: 15px;
   background-color: #1e1e2e;
+  color: white;
   padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -345,6 +347,7 @@ body {
   align-items: center;
   gap: 15px;
   background-color: #1e1e2e;
+  color: white;
   padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -377,6 +380,7 @@ body {
 
 .revision-card {
   background-color: #1e1e2e;
+  color: white;
   border-radius: 10px;
   margin-bottom: 15px;
   overflow: hidden;
@@ -405,6 +409,7 @@ body {
   width: 120px;
   height: 8px;
   background-color: #2e2e4e;
+  color: white;
   border-radius: 10px;
   overflow: hidden;
 }
