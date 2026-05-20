@@ -15,7 +15,7 @@ function Navbar() {
         <li><Link to="/revisions">📝 Révisions</Link></li>
       </ul>
 
-      <div className="burger" id="burger" onclick="toggleMobileMenu()">
+      <div className="burger" id="burger">
         <span></span><span></span><span></span>
       </div>
     </nav>

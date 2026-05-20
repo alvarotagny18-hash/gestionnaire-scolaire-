@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #5c3fdee3;
+  background-color: #5c3fdef3;
   padding: 15px 30px;
   color: white;
 }
@@ -33,7 +33,7 @@
   color: #370bbd;
 }
 
-@media (max-width : 900px) {
+@media (max-width : 800px) {
 
   .navbar-links {
     position:fixed;
@@ -41,14 +41,14 @@
     left:0;
     right:0;
     align-items: center;
-    background: bisque;
+    background: rgb(196, 210, 255);
     flex-direction: column;
     padding: 1.5rem 0 ;
     border-bottom: 1px solid rgb(220, 220, 224);
     transform:translateY(-110%);
     opacity: 0;
     pointer-events: none;
-    transition: transform 0.35s, opacity 0.35s;
+    transition: transform 1.s, opacity 0.35s;
     z-index: 99;
   }
 
@@ -63,7 +63,7 @@
 
   .navbar-links.open {
     transform: translateY(0);
-    opacity: 1;
+    opacity: 0;
     pointer-events: all;
   }
 
