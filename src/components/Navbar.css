@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #5c3fdef3;
+  background-color: #064e3b;
   padding: 15px 30px;
   color: white;
 }
@@ -11,7 +11,7 @@
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #a5a5f5;
+  color: #acf5a5;
 }
 
 .navbar-links {
@@ -30,7 +30,7 @@
 }
 
 .navbar-links a:hover {
-  color: #370bbd;
+  color: #0bbd0b;
 }
 
 @media (max-width : 800px) {
